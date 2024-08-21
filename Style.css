@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #212852;
+    color: #ffffff;
+}
+
+header {
+    background-color: #13172e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.projeto {  /*quadrado do fundo dos projetos*/
+    background-color: #ffffff69;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 100;
+}
+
+footer { /*bagulho do final da página*/
+    text-align: center;
+    padding: 10px 0;
+    background-color: #13172e;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Altere este valor para ajustar a opacidade */
+    z-index: -1;
+}
+
+.minha-foto {
+    
+    margin-right: 100px;
+    margin-left: sd;
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Deixa a imagem circular */
+    display: block;
+    border: 2px solid #333; /* Adiciona uma borda */
+}
+
+.aranha {
+    width: 200px;
+    height: auto;
+    margin-left: 650px;
+    border-radius: 20px;
+}
+
+.aranhasemmascara {
+    width: 200px;
+    height: auto;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+    
+.sobre-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+h2 {
+    font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: center;
+}
+
+p{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.fangro {
+    margin-left: 100px;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.calendariofoto {
+    width: 1000px;
+    height: auto;
+    margin-left: 400px;
+}
+
+.fotosite {
+    width: 1000px;
+    height: auto;
+    margin-left: 400px;
+}
+
+.hackerman {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Deixa a imagem circular */
+    border: 2px solid #333; /* Adiciona uma borda */
+    animation: moverLadoALado 3s ease-in-out infinite; /* Aplica a animação de movimento contínuo */
+}
+
+@keyframes moverLadoALado {
+    0% {
+        transform: translateX(100px); /* Começa à esquerda */
+    }
+    50% {
+        transform: translateX(1600px); /* Move para a direita */
+    }
+    100% {
+        transform: translateX(100px); /* Retorna à posição inicial */
+    }
+}
+
+h3 {
+    color: #13172e;
+    
+}
+
+p1 {
+    margin-left: 110px;
+    font-size: 40px;
+}
+
+    p2 {
+        font-size: 50px;
+        color: #ffffff;
+        margin-left: 50px;
+    }
